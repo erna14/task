@@ -1,0 +1,84 @@
+.table_container {
+  background-color: rgb(93, 149, 8);
+  font-size: 20px;
+  padding: 0 30px 0 30px;
+  margin: 30px;
+  border-radius: 20px;
+  /*min-height: 100vh; /* Minimum height equal to viewport height */
+  /*overflow-y: auto;*/
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.filter {
+  text-align: center;
+}
+
+label {
+  font-weight: bolder;
+  color: black;
+}
+
+.input_filter {
+  font-size: 17px;
+  padding: 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.products_table {
+  border-collapse: collapse;
+  /*width: 65%;*/
+  border-radius: 30px;
+  border: none;
+  margin: 30px auto;
+  
+}
+
+.products_table td, .products_table th {
+  padding: 15px 40px;
+}
+
+
+.products_table tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+.products_table tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.products_table thead tr:first-child {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #30740e;
+  color: white;
+}
+
+.paginate_btns_container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.paginate_btn {
+  background-color: white;
+  color: black;
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+.paginate_btn:hover {
+  background-color: rgb(212, 208, 208);
+  cursor: pointer;
+}

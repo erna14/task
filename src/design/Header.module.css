@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  background-color: rgb(93, 149, 8);
+  padding: 20px 40px;
+  justify-content: space-between;
+  font-size: 25px;
+  color: white;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.username_id {
+  color: white;
+}
+
+/* USER INFO (USERNAME AND ID)*/
+.user_info {
+  font-weight: bold;
+  /*font-style: italic;*/
+}
+
+/* LINKS */
+.links a{
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+
+}
+
+.links a:hover {
+  font-weight: bolder;
+}
+
+
+/* BUTTONS */
+.logout_btn {
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  /* dodati bold */
+}
+
+.logout_btn:hover {
+  background-color: rgb(191, 34, 34);
+  cursor: pointer;
+}
+
+.login_btn {
+  background-color: rgb(0, 81, 255);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  /* dodati bold */
+}
+
+.login_btn:hover {
+  background-color: rgb(31, 77, 176);
+  cursor: pointer;
+}
